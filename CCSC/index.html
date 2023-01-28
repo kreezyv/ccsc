@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSU Carig Student Council</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-custom">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+        >
+          <span class="bi bi-list text-white fs-2"></span>
+        </button>
+
+        <h5
+          class="text-white mx-auto my-auto d-inline-block d-lg-none"
+          id="offcanvasDarkNavbarLabel"
+        >
+          <img
+            src="media/ccsc-logo.png"
+            alt=""
+            height="30"
+            class="align-text-top"
+          />
+          CSU Carig Student Council
+        </h5>
+        <div
+          class="offcanvas offcanvas-start bg-custom"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5
+              class="offcanvas-title text-white"
+              id="offcanvasDarkNavbarLabel"
+            >
+              <img
+                src="media/ccsc-logo.png"
+                alt=""
+                height="30"
+                class="align-text-top"
+              />
+              CSU Carig Student Council
+            </h5>
+            <i
+              type="button"
+              class="bi bi-arrow-left-circle fs-2 text-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></i>
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav pe-3 mx-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Gazette
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Commitees
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item nav-logo-container d-none d-lg-block">
+                <a class="navbar-brand" href="#"
+                  ><img
+                    src="media/ccsc-logo.png"
+                    width="50"
+                    height="50"
+                    class="nav-logo"
+                /></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Col SCs
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Extention
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Online Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item d-block d-lg-none">
+                <div class="w-75 mt-2">
+                  <a
+                    href="https://www.facebook.com/CarigCSC"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn w-75 text-white"
+                    style="background-color: #3b5998"
+                  >
+                    <i class="bi bi-facebook"></i>
+                    <span>Like</span></a
+                  >
+                </div>
+              </li>
+              <li class="nav-item d-block d-lg-none">
+                <div class="w-75 mt-2">
+                  <a
+                    href="https://www.youtube.com/channel/UC_aI7ueRu_0QmLhQ6DMWdnQ"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn w-75 text-white"
+                    style="background-color: #ff0000"
+                    ><i class="bi bi-youtube"></i> <span>Subscribe</span></a
+                  >
+                </div>
+              </li>
+              <li class="nav-item d-block d-lg-none">
+                <div class="w-75 mt-2">
+                  <a
+                    href="https://www.instagram.com/csucarigstudentcouncil/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn w-75 text-white"
+                    style="
+                      background: linear-gradient(
+                        90deg,
+                        rgba(138, 58, 185, 1) 0%,
+                        rgba(205, 72, 107, 1) 64%,
+                        rgba(251, 173, 80, 1) 100%
+                      );
+                    "
+                    ><i class="bi bi-instagram"></i> <span>Follow</span></a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="nav-space"></div>
+    <div class="row" style="margin-right: 0; margin-left: 0">
+      <div class="col-lg-8" style="padding: 0; position: relative">
+        <img src="media/ccsc-cover.jpg" class="w-100 h-100" />
+        <div class="follow-data d-none d-lg-block">
+          <div class="row">
+            <div class="col-4 d-flex justify-content-center mt-2">
+              <a
+                href="https://www.facebook.com/CarigCSC"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn w-75 text-white"
+                style="background-color: #3b5998"
+              >
+                <i class="bi bi-facebook"></i>
+                <span class="d-none d-lg-inline-block">Like</span></a
+              >
+            </div>
+            <div class="col-4 d-flex justify-content-center mt-2">
+              <a
+                href="https://www.youtube.com/channel/UC_aI7ueRu_0QmLhQ6DMWdnQ"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn w-75 text-white"
+                style="background-color: #ff0000"
+                ><i class="bi bi-youtube"></i>
+                <span class="d-none d-lg-inline-block">Subscribe</span></a
+              >
+            </div>
+            <div class="col-4 d-flex justify-content-center mt-2">
+              <a
+                href="https://www.instagram.com/csucarigstudentcouncil/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn w-75 text-white"
+                style="
+                  background: linear-gradient(
+                    90deg,
+                    rgba(138, 58, 185, 1) 0%,
+                    rgba(205, 72, 107, 1) 64%,
+                    rgba(251, 173, 80, 1) 100%
+                  );
+                "
+                ><i class="bi bi-instagram"></i>
+                <span class="d-none d-lg-inline-block">Follow</span></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="shadow media-data">
+          <div class="row h-100" style="margin-right: 0; margin-left: 0">
+            <div
+              class="col-4 d-flex flex-column align-items-center justify-content-center"
+              style="border-right: 1px solid rgba(0, 0, 0, 0.6)"
+            >
+              <span class="text-white fw-bold fs-3">22,886+</span>
+              <span class="text-white people-data text-center"
+                ><i class="bi bi-facebook"></i> Facebook Followers</span
+              >
+            </div>
+            <div
+              class="col-4 d-flex flex-column align-items-center justify-content-center"
+              style="border-right: 1px solid rgba(0, 0, 0, 0.6)"
+            >
+              <span class="text-white fw-bold fs-3">541+</span>
+              <span class="text-white people-data text-center"
+                ><i class="bi bi-youtube"></i> YouTube Subscribers</span
+              >
+            </div>
+            <div
+              class="col-4 d-flex flex-column align-items-center justify-content-center"
+            >
+              <span class="text-white fw-bold fs-3">663+</span>
+              <span class="text-white people-data text-center"
+                ><i class="bi bi-instagram"></i> Instagram Followers</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4" style="padding: 0">
+        <div class="d-none d-lg-block">
+          <div
+            id="myCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+            data-bs-interval="4000"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#myCarousel"
+                data-bs-slide-to="0"
+                class="active"
+                aria-label="Slide 1"
+                aria-current="true"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#myCarousel"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+                class=""
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#myCarousel"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+                class=""
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="media/update1.jpg" alt="" />
+              </div>
+              <div class="carousel-item">
+                <img src="media/update2.jpg" alt="" />
+              </div>
+              <div class="carousel-item">
+                <img src="media/update3.jpg" alt="" />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="bi bi-chevron-left fs-1 shadow"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="bi bi-chevron-right fs-1 shadow"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <div class="card shadow" style="max-width: 100%">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <video
+              loop
+              autoplay
+              class="img-fluid rounded-start dom-vid"
+              style="
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                aspect-ratio: 16, 9;
+              "
+            >
+              <source src="media/front-video.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">
+                INITIATING THE FIRST FLIGHT: Foreshadowing Leadership and
+                Service Beyond
+              </h5>
+              <p class="card-text">
+                Duty Eagle eyed, the guiding lights of Cagayan State University
+                Carig Campus are making their way towards a different level of
+                service. Vowed to take their duties beyond the optimum, the
+                Carig Campus Student Council Officers are ready to take on new
+                challenges and responsibilities with a mission to serve. Behold,
+                the CCSC Officers, paving their way to conquer heights as they
+                take flight to serve the whole red eagle family. This is a new
+                age of accomplisments and victorius beginnings and endings. With
+                this again, this is the Carig Campus Student Council initiating
+                the first flight as this academic year begins with leadership
+                and service beyond duty. Padayon, CCSC!
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-6">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="media/ccsc-team/" class="img-fluid rounded shadow" />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">JM PATTUGALAN</h5>
+                  <p class="card-text">Campus Student Council President</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="media/ccsc-team/" class="img-fluid rounded shadow" />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">JOHN DENVER SINDOL</h5>
+                  <p class="card-text">Campus Student Council Vice President</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="media/ccsc-team" class="img-fluid rounded shadow" />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">MICHAEL JEFFERSON BAQUIRAN</h5>
+                  <p class="card-text">Campus Student Council Chief of Staff</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="title-style mx-auto">
+        <h3 class="h3 mb-3 text-center">Sports & Wellness</h3>
+      </div>
+      <div class="row" style="margin-right: 0; margin-left: 0">
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/Apostol, Mark John Lester C. SPORTS AND WELLNESS MEMBER.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">MARK JOHN LESTER APOSTOL</h5>
+                  <p class="card-text">Sports And Wellness Member</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/KYRA SHEENA LACAMBRA- SPORTS AND WELNESS COMMITEE HEAD.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">KYRA SHEENA LACAMBRA</h5>
+                  <p class="card-text">Sports And Welness Head</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/Twinkle Dwayne B. Rosete- SPORTS AND WELLNESS COMMITTEE-MEMBER.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">TWINKLE DWAYNE ROSETE</h5>
+                  <p class="card-text">Sports And Wellness Member</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="title-style mx-auto">
+        <h3 class="h3 text-center mb-3">Arts & Socio-Cultural</h3>
+      </div>
+      <div class="row" style="margin-right: 0; margin-left: 0">
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/BALLAD, REYMARK M. ARTS _ SOCIO CULTURAL COMMITTEE- HEAD .jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">REYMARK BALLAD</h5>
+                  <p class="card-text">Arts & Socio Cultural Head</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/RaquiñoRogerJr-SocioCommitteeMember.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">ROGER ROQUINO</h5>
+                  <p class="card-text">Arts & Socio Cultural Member</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/Harvey Lanz Martillano de la Cruz- Arts _ Socio Committee.png"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">HARVEY DELA CRUZ</h5>
+                  <p class="card-text">Arts & Socio Cultural Member</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="title-style mx-auto">
+        <h3 class="h3 text-center mb-3">Gender & Development</h3>
+      </div>
+      <div class="row" style="margin-right: 0; margin-left: 0">
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/Jamaica B. Duran - GAD committee member.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">JAMAICA DURAN</h5>
+                  <p class="card-text">Gender & Development Member</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/Orpilla, Jastine B. - COMM ON GAD MEMBER.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">JASTINE ORPILLA</h5>
+                  <p class="card-text">Gender & Development Member</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/MALLILLIN, MA. THERESA LOURDES M. - COMM ON GAD HEADjpg.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">THERESA MALLILLIN</h5>
+                  <p class="card-text">Gender & Development Head</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="title-style mx-auto">
+        <h3 class="h3 text-center mb-3">Local Affairs</h3>
+      </div>
+      <div class="row" style="margin-right: 0; margin-left: 0">
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/GARCIA, ANGEL KRISTINE G. LOCAL AFFAIRS COMMITTEE MEMBER.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">ANGEL KRISTINE GARCIA</h5>
+                  <p class="card-text">Local Affairs Member</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/VINCENT_URSUA_PAGADOR-Head_Committee_on_Local_Affairs.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">VINCENT PAGADOR</h5>
+                  <p class="card-text">Local Affairs Head</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/IRINGAN, MARY ANN B. - LOCAL AFFAIRS MEMBER.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">MARY ANN IRINGAN</h5>
+                  <p class="card-text">Local Affairs Member</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="title-style mx-auto">
+        <h3 class="h3 text-center mb-3">Education</h3>
+      </div>
+      <div class="row" style="margin-right: 0; margin-left: 0">
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/RHYCE MCKENZIE L. GAMMAD - COMMITTEE ON EDUCATION MEMBER.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">RHYCE MCKENZIE GAMMAD</h5>
+                  <p class="card-text">Committee On Education Member</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="media/ccsc-team/" class="img-fluid rounded shadow" />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">CHRISTINE JOY ANGOULUAN</h5>
+                  <p class="card-text">Committee On Education Member</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/CRISHELLE MAY G. FUGGAN - COMMITTEE ON EDUCATION HEAD.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">CRISHELLE MAY FUGGAN</h5>
+                  <p class="card-text">Education Head</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="title-style mx-auto">
+        <h3 class="h3 text-center mb-3">Press & Relation</h3>
+      </div>
+      <div
+        class="row d-flex justify-content-center"
+        style="margin-right: 0; margin-left: 0"
+      >
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/ALFARO JIANEL B.(Press Relations and Comm) .jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">JIANEL ALFARO</h5>
+                  <p class="card-text">Press & Relation Member</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/Cristelle Kate Garcia- Press Relation and Communication_.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">CRISTELLE KATE GARCIA</h5>
+                  <p class="card-text">Press & Relation Member</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="title-style mx-auto">
+        <h3 class="h3 text-center mb-3">Graphics & Design</h3>
+      </div>
+      <div class="row" style="margin-right: 0; margin-left: 0">
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/Homer Villagracia - Graphics.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">HOMER VILLAGARCIA</h5>
+                  <p class="card-text">Graphics & Design Member</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="media/ccsc-team/" class="img-fluid rounded shadow" />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">ROBERT KLYNE AYON-AYON</h5>
+                  <p class="card-text">Graphics & Design Member</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/BADDUNGON, JOSHUA S.-GRAPHICS CHAIR.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">JOSHUA BADDUNGON</h5>
+                  <p class="card-text">Graphics & Design Head</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="title-style mx-auto">
+        <h3 class="h3 text-center mb-3">Technical & Production</h3>
+      </div>
+      <div class="row" style="margin-right: 0; margin-left: 0">
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="media/ccsc-team/" class="img-fluid rounded shadow" />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">ERICK JADE CENTENO</h5>
+                  <p class="card-text">Technical & Production Member</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/CABANADA ALLEN DAVE (tech and prod member).png"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">ALLEN DAVE CABANADA</h5>
+                  <p class="card-text">Technical & Production Member</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/Irvin Ross Basul Tech and prod member.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">IRVIN ROSS BASUL</h5>
+                  <p class="card-text">Technical & Production Member</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="media/ccsc-team/" class="img-fluid rounded shadow" />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">TRISHA FAYE FAILANO</h5>
+                  <p class="card-text">Technical & Production Member</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/Yvan Maribbay -  Tech _ Prod Committee.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">YVAN MARIBBAY</h5>
+                  <p class="card-text">Technical & Production Member</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/RIAZONDA JOSIAH TECH & PROD.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">JOSIAH GILES RIAZONDA</h5>
+                  <p class="card-text">Technical & Production Head</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="title-style mx-auto">
+        <h3 class="h3 text-center mb-3">Senators</h3>
+      </div>
+      <div class="row" style="margin-right: 0; margin-left: 0">
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/ALBANO, JANAH PATRISHA D. SENATOR.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">JANAH PATRISHA ALBANO</h5>
+                  <p class="card-text">Senator</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="media/ccsc-team/" class="img-fluid rounded shadow" />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">PRINCE JINSEI HABOC</h5>
+                  <p class="card-text">Senator</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/LAPAT, JANEL G. - SENATOR.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">JANEL LAPAT</h5>
+                  <p class="card-text">Senator</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/JHON JHON ARNEDO -SENATOR.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">JOHN JOHN ARNEDO</h5>
+                  <p class="card-text">Senator</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/Quegan, Jaren G., Senator.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">JAREN QUEGAN</h5>
+                  <p class="card-text">Senator</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/ROSTUM P QUEREZA - SENATOR.jpeg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">ROSTUM QUEREZA</h5>
+                  <p class="card-text">Senator</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/CHING TO, JOSHUA KYLE A_.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">JOSHUA KYLE CHING TO</h5>
+                  <p class="card-text">Senator</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/Gian Carlo B. Narisma - Legislative Secretary.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">GIAN NARISMA</h5>
+                  <p class="card-text">Legislative Secretary</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-4">
+                <img
+                  src="media/ccsc-team/LEONOR JUANDAY TUMALIUAN - EXECUTIVE TREASURER.jpg"
+                  class="img-fluid rounded shadow"
+                />
+              </div>
+              <div class="col-8">
+                <div
+                  class="d-flex flex-column justify-content-center h-100 px-2"
+                >
+                  <h5 class="card-title">LEONOR TUMALIUAN</h5>
+                  <p class="card-text">Executive Treasurer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center text-lg-start bg-footer text-muted">
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start">
+          <!-- Grid row -->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto my-4 text-white">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                CAMPUS STUDENT COUCIL - CSU CARIG
+              </h6>
+              <center>
+                <img
+                  src="media/ccsc-logo.png"
+                  class="grayscale img-responsive"
+                  width="200px"
+                />
+              </center>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto my-4 text-white">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Links</h6>
+              <p>
+                <a href="#!" class="nav-link">About</a>
+              </p>
+              <p>
+                <a href="#!" class="nav-link">Gazette</a>
+              </p>
+              <p>
+                <a href="#!" class="nav-link">Commitees</a>
+              </p>
+              <p>
+                <a href="#!" class="nav-link">Col SCs</a>
+              </p>
+              <p>
+                <a href="#!" class="nav-link">Extention</a>
+              </p>
+              <p>
+                <a href="#!" class="nav-link">Online Services</a>
+              </p>
+            </div>
+
+            <div
+              class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 my-4 text-white"
+            >
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p>Carig Sur Tuguegarao City 3500 Cagayan Valley</p>
+              <p>
+                <i class="bi bi-envelope-fill"></i>
+                carigcampusstudentcouncil@gmail.com
+              </p>
+              <p><i class="bi bi-telephone-fill"></i> 0905 753 1342</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.025)"
+      >
+        © Copyright Cagayan State University - Carig Campus. All Rights Reserved
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <button
+      type="button"
+      class="btn btn-danger btn-floating btn-lg"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-caret-up-fill"></i>
+    </button>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Kristian Chloe Valencia - BSCS 3A 2022 -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
